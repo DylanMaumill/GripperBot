@@ -1,0 +1,90 @@
+ <!DOCTYPE html>
+<html>
+	<head>
+    <link rel="stylesheet" href="GUI.css">
+		<style>
+			h1{
+				font-size: 40px;
+				text-align: center;
+				font-family: "Times New Roman", Times, serif;
+			}
+			table {
+	    			width: 600px;
+	    			font-size: 30px;
+			}
+			table, th, td {
+    				margin: auto;
+    				text-align: center;
+			}
+			th {
+				font-weight: normal;
+			}
+
+		</style>
+		<title>Gripper Bot Sorting Challange</title>
+		<script>
+		</script>
+	</head>
+	<body>
+		<h1>Gripper Bot Sorting Challange</h1>
+		<form name="gripperBot" action="/api/data" method="post">
+		<table>
+		<tr>
+		<td>
+			Block One Platform:</td><td> <Select name="block1" id="block1">
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+			</select></td>
+			</tr><tr><td>
+			Block Two Platform:</td><td> <Select name="block2" id="block2">
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+			</select></tr>
+			</td><tr><td>
+			Block Three Platform: </td><td><Select name="block3" id="block3">
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+			</select></tr>
+			</td><tr><td>
+			Block Four Platform:</td><td> <Select name="block4" id="block4">
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+			</select></tr>
+			</td><tr><td>
+			Block Five Platform:</td><td> <Select name="block5" id="block5">
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+			</select></tr>
+			</td><tr><td>
+			Block Six Platform: </td><td><Select name="block6" id="block6">
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+			</select></tr>
+			</td><tr><td>
+			Goal Platform:</td><td><select name="goal" id="goal">
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+			</select></tr>
+			</td><tr><td>
+
+			<button> Submit </button>
+			</tr></td>
+			</table>
+
+		</form>
+	</body>
+</html>
